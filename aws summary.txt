@@ -1,3 +1,5 @@
+AWS Summary
+
 Easy to create highly flexible, scalable, and cost effective directories
 Flexible schema management enables you to extend your directory schema as needed. You can add attributes to directory objects and relationships
 
@@ -13,3 +15,5 @@ AWS provides the ability to place instances in multiple locations. Amazon EC2 lo
 allows you to automatically scale your Amazon EC2 capacity up or down according to conditions you define. You can use the dynamic and predictive scaling policies within EC2 Auto Scaling to add or remove EC2 instances
 
 Enhanced Networking enables you to get significantly higher packet per second (PPS) performance, lower network jitter and lower latencies.
+
+AWS Backup, EFS, S3, S3 Glacier, Storage Gateway are some of the options
