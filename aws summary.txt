@@ -1,0 +1,15 @@
+Easy to create highly flexible, scalable, and cost effective directories
+Flexible schema management enables you to extend your directory schema as needed. You can add attributes to directory objects and relationships
+
+AWS is free, you pay for what you use. There are also paid options
+
+EC2 helps create VMs to work on projects which are easily configured
+
+AWS Shared Repo Model
+Storage, Daatbase, Networking, Regions
+
+AWS provides the ability to place instances in multiple locations. Amazon EC2 locations are composed of Regions and Availability Zones. Availability Zones are distinct locations that are engineered to be insulated from failures in other Availability Zones and provide inexpensive, low latency network connectivity to other Availability Zones in the same Region
+
+allows you to automatically scale your Amazon EC2 capacity up or down according to conditions you define. You can use the dynamic and predictive scaling policies within EC2 Auto Scaling to add or remove EC2 instances
+
+Enhanced Networking enables you to get significantly higher packet per second (PPS) performance, lower network jitter and lower latencies.
