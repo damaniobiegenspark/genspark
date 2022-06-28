@@ -1,0 +1,33 @@
+IAM - Idenity Access Management
+Can create users, groups, roles and policies
+Policies are assigned to groups, and limit what users are able to do
+Users are to be assigned a role and permissions, these can be modified
+Connecting to databases uses roles, as opposed to user strings
+Attribute-based access control (ABAC) is an authorization strategy you can use to create fine-grained permissions based on user attributes, such as department, job role, and team name
+Policies have -
+	Actions - Which AWS service actions you allow
+	Resources - Which AWS resources you allow the action on
+	Effects - Whether to allow or deny access.
+	Conditions - Which conditions must be present for the policy to take effect.
+
+
+VPC - Virtual Private Cloud
+enables you to launch AWS resources into a virtual network that you've defined.
+These must be paired with others to share resources 
+There are different subnets within each region
+There is no additional charge for using a VPC
+different subnets within different VPC's
+A VPC spans all of the Availability Zones in the Region.
+A VPC must have an IPv4 CIDR block associated with it. You can optionally associate multiple IPv4 CIDR blocks and multiple IPv6 CIDR blocks to your VPC.
+
+
+
+NAT Gateways
+You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances. 
+NAT Gateways give internet access to subnets. You must specify a NAT Gateway with a connectivity type of public or private. 
+In public, Instances in private subnets can connect to the internet through a public NAT gateway, but cannot receive unsolicited inbound connections from the internet
+In private, Instances in private subnets can connect to other VPCs or your on-premises network through a private NAT gateway. You can route traffic from the NAT gateway through a transit gateway or a virtual private gateway
+Regarding pricing, you are charged for each hour that your NAT gateway is available and each Gigabyte of data that it processes.
+A NAT gateway supports the following protocols: TCP, UDP, and ICMP, and NAT gateways are supported for IPv4 or IPv6 traffic.
+You can associate exactly one Elastic IP address with a public NAT gateway. You cannot disassociate an Elastic IP address from a NAT gateway after it's created.
+By default, IAM users do not have permission to work with NAT gateways. You can create an IAM user policy that grants users permissions to create, describe, and delete NAT gateways.
